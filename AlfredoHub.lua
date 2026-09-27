@@ -985,7 +985,7 @@ end
 -- ════════════════════════════════════════════════════════════════════════
 -- GUARD STRIKE — 4-фазная кража
 -- ════════════════════════════════════════════════════════════════════════
-local function guardStrike(egg, session)
+local function guardStrike(egg)
     if not egg or not egg.Uid or not egg.CFrame then return false end
     
     local root = hrp()
